@@ -21,7 +21,7 @@ function calcProfitLoss(initial, quantity, current) {
   }
 }
 
-function calcBtnEventAction(initialPrice, stocksCount, currentPrice) {
+function calcBtnEventAction() {
   let initialPriceVal = Number(initialPrice.value);
   let stocksCountVal = Number(stocksCount.value);
   let currentPriceVal = Number(currentPrice.value);
