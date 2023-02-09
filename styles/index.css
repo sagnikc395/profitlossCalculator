@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #a5b4fc;
+  --link-color: #ea580c;
+}
+
+body {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 0.8rem 0.5rem;
+  background-color: var(--primary-color);
+}
+.initial-price-block h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+.initial-price {
+  padding: 1rem 2rem;
+  border-radius: 0.9rem;
+  text-align: left;
+}
+.stocks-quantity-block h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+.stocks-count {
+  padding: 1rem 2rem;
+  border-radius: 0.9rem;
+  text-align: left;
+}
+.current-price {
+  padding: 1rem 2rem;
+  border-radius: 0.9rem;
+  text-align: left;
+}
+
+.calculate-button {
+  margin: 1rem 1rem;
+  border: 1rem solid var(--primary-color);
+  border-radius: 2rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  background: linear-gradient(-50deg, #6366f1, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 20s ease infinite;
+}
+
+
+.current-price-block h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.display-result {
+  border: 2px solid black;
+  border-radius: 2rem;
+  height: 10vh;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.list-unordered {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 2rem;
+}
+
+.inline-list {
+  list-style: none;
+}
+
+.link-social {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--link-color);
+}

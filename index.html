@@ -9,21 +9,18 @@
   </head>
   <body>
     <h1>Stock Profile and Loss Calculator</h1>
-    <div>
+    <div class="initial-price-block">
       <h2>Initial Price</h2>
       <input placeholder="Enter initial Price" class="initial-price" />
     </div>
-    <div>
+    <div class="stocks-quantity-block">
       <h2>Quantity of Stocks</h2>
-      <input
-        placeholder="Enter the number of stocks bought"
-        class="stocks-count"
-      />
+      <input placeholder="Enter stocks bought" class="stocks-count" />
     </div>
-    <div>
+    <div class="current-price-block">
       <h2>Current Price</h2>
       <input
-        placeholder="Enter the current price of stocks"
+        placeholder="Enter current price of stocks"
         class="current-price"
       />
     </div>
@@ -32,25 +29,25 @@
     <div class="display-result"></div>
     <script src="./js/index.js"></script>
 
-    <footer>
-      <p>2023 | sagnik @ web</p>
-      <ul class="list-unordered inline-list">
+    <footer class="footer">
+      <ul class="footer-link inline-list">
+        <p>2022 | sagnik @web</p>
         <li>
           <a
-            class="links"
+            class="link-social"
             href="https://github.com/sagnikc395/"
             target="_blank"
           >
-            <img src="images/github.svg" alt="github" />
+            <span>Github</span>
           </a>
         </li>
         <li>
           <a
-            class="links"
-            href="https://twitter.com/sagnikchat3"
+            class="link-social"
+            href="https://twitter.com/sagnikchat3/"
             target="_blank"
           >
-            <img src="images/twitter.svg" alt="twitter" />
+            <span>Twitter</span>
           </a>
         </li>
       </ul>
