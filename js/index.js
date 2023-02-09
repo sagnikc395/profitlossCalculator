@@ -25,6 +25,7 @@ function calcBtnEventAction(initialPrice, stocksCount, currentPrice) {
   let initialPriceVal = Number(initialPrice.value);
   let stocksCountVal = Number(stocksCount.value);
   let currentPriceVal = Number(currentPrice.value);
+  calcProfitLoss(initialPriceVal, stocksCountVal, currentPriceVal);
 }
 
 function displayOutput(message) {
