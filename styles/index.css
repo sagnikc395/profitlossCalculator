@@ -3,6 +3,7 @@
 :root {
   --primary-color: #a5b4fc;
   --link-color: #ea580c;
+  --social-highlight: #fbbf24;
 }
 
 body {
@@ -85,5 +86,4 @@ body {
 .link-social {
   text-decoration: none;
   font-size: 1.1rem;
-  color: var(--link-color);
 }
