@@ -15,6 +15,7 @@ body {
   text-align: center;
   padding: 0.8rem 0.5rem;
   background-color: var(--primary-color);
+  height: 100vh;
 }
 .initial-price-block h2 {
   font-size: 1.8rem;
@@ -42,7 +43,7 @@ body {
 
 .calculate-button {
   margin: 1rem 1rem;
-  border: 1rem solid var(--primary-color);
+  border: 1.5px solid black;
   border-radius: 2rem;
   padding: 1rem;
   display: inline-block;
@@ -62,15 +63,10 @@ body {
   border-radius: 2rem;
   height: 10vh;
   text-align: center;
+  font-size: 1.8rem;
+  background-color: white;
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 10px;
-  height: 100px;
-  width: 100%;
-}
 
 .list-unordered {
   display: flex;
